@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_airlink_choose_device_workwifi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="pumin.com.pumin.activity.GosAirlinkChooseDeviceWorkWiFiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/red">
+
+        <ImageView
+            android:id="@+id/close_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x10"
+            android:src="@mipmap/yolo_back_left"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加设备"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:id="@+id/Homepage_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/yl_homepage"
+            android:layout_gravity="right|center"
+            android:padding="@dimen/x10" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/icon_wifi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+
+            <EditText
+                android:id="@+id/etSSID"
+                style="@style/EditTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/choose_wifi_list_title"
+                android:layout_marginLeft="@dimen/x5"
+                android:textColorHint="@color/title_gray"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imgWiFiList"
+                android:layout_width="32dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:contentDescription="@string/app_name"
+                android:paddingBottom="5dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="9dp"
+                android:paddingTop="5dp"
+                android:src="@mipmap/yl_back_right"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_gravity="center"
+            android:background="@color/background_light_gray" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/yl_accountimage" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/etPsw"
+                style="@style/EditTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x5"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/softPsw_hint"
+                android:inputType="textPassword"
+                android:textColorHint="@color/title_gray"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/cbLaws"
+                android:layout_width="@dimen/x20"
+                android:layout_height="@dimen/y15"
+                android:layout_margin="@dimen/x8"
+                android:background="@drawable/checkbox_laws_selector"
+                android:button="@null" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_gravity="center"
+            android:background="@color/background_light_gray" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:paddingBottom="@dimen/y80"
+        >
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/ButtonYT"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x45"
+            android:text="开始配置"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/five_wifi" />&ndash;&gt;-->
+    <!--</RelativeLayout>-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:paddingRight="@dimen/x20"
+        android:paddingBottom="@dimen/x40"
+        >
+        <ImageView
+            android:id="@+id/consult_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_consult"
+            />
+    </LinearLayout>
+</FrameLayout>

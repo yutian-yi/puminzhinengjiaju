@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y80"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#eee">
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingBottom="10dp">-->
+    <!--<TextView-->
+    <!--android:id="@+id/OnTX"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="开"-->
+    <!--android:gravity="center"-->
+    <!--android:background="#fff"-->
+    <!--android:textSize="10pt"-->
+    <!--android:textColor="#666"-->
+    <!--android:padding="10dp"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <EditText
+        android:id="@+id/Remark_TX"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y50"
+        android:hint="请输入设备备注信息"
+        android:padding="10dp"
+        android:textColor="#666"
+        android:textColorHint="@color/text_gray_light"
+        android:textSize="8pt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+       >
+
+        <TextView
+            android:id="@+id/yesTX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#666"
+            android:textSize="10pt"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/noTX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#666"
+            android:textSize="10pt"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

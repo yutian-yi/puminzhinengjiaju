@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/x5"
+    android:paddingRight="@dimen/x5"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/x5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/WorkTime_TX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="具体时间"
+                style="@style/work_item_Text"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/WorkRemark_TX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注信息"
+                style="@style/work_item_Text"/>
+
+            <TextView
+                android:id="@+id/WorkDate_TX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期或星期"
+                style="@style/work_item_Text"
+              />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:layout_weight="8">
+
+            <TextView
+                android:id="@+id/WorkOff_On_TX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任务状态开或关"
+                style="@style/work_item_Text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#dddcdc" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+﻿{
+  "data": [
+    {
+      "type": "空调外机",
+      "image": "yl_ktw_on|yl_ktw_off"
+    },
+    {
+      "type": "空调内机",
+      "image": "yl_ktn_on|yl_ktn_off"
+    },
+    {
+      "type": "新风",
+      "image": "yl_xf_on|yl_xf_off"
+    },
+    {
+      "type": "采暖",
+      "image": "yl_cn_on|yl_cn_off"
+    },
+    {
+      "type": "办公照明",
+      "image": "yl_lighting_switchon|yl_lighting_switchoff"
+    },
+    {
+      "type": "景观",
+      "image": "yl_jg_on|yl_jg_off"
+    },
+    {
+      "type": "草坪",
+      "image": "yl_cp_on|yl_cp_off"
+    },
+    {
+      "type": "路灯",
+      "image": "yl_ld_on|yl_ld_off"
+    },
+    {
+      "type": "墙灯",
+      "image": "yl_qd_on|yl_qd_off"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/up_arrow1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/up_arrow"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/icon_redjiantou" />-->
+        <!--</LinearLayout>-->
+        <ImageView
+            android:id="@+id/up_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_redjiantou" />
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/x15"
+            android:paddingRight="@dimen/x15"
+            android:paddingTop="@dimen/x7"
+            android:paddingBottom="@dimen/x7"
+            android:layout_below="@+id/up_arrow"
+            android:background="@drawable/img_bg_shape_red2"
+            >
+
+            <LinearLayout
+                android:id="@+id/Linear_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5"
+                >
+
+                <TextView
+                    android:id="@+id/menu_item1"
+                    style="@style/Tanchuang_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="实验楼" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+
+            <LinearLayout
+                android:id="@+id/Linear_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <TextView
+                    android:id="@+id/menu_item2"
+                    style="@style/Tanchuang_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="四楼" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+
+            <LinearLayout
+                android:id="@+id/Linear_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <TextView
+                    android:id="@+id/menu_item3"
+                    style="@style/Tanchuang_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="三楼" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+
+            <LinearLayout
+                android:id="@+id/Linear_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <TextView
+                    android:id="@+id/menu_item4"
+                    style="@style/Tanchuang_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="二楼" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+
+            <LinearLayout
+                android:id="@+id/Linear_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <TextView
+                    android:id="@+id/menu_item5"
+                    style="@style/Tanchuang_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一楼" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+
+            <LinearLayout
+                android:id="@+id/Linear_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <TextView
+                    android:id="@+id/menu_item6"
+                    style="@style/Tanchuang_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="门卫"
+                    android:padding="@dimen/x3"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/down_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:background="@drawable/down_arrow_drawable"
+            />
+    </RelativeLayout>
+</LinearLayout>

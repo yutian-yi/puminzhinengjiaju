@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_facility"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    android:orientation="vertical"
+    tools:context="pumin.com.pumin.activity.FacilityActivity">
+
+    <LinearLayout
+        android:id="@+id/Linear_facility"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/Set_LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y40"
+            android:background="@color/red"
+            android:orientation="horizontal"
+            android:padding="@dimen/x5"
+            android:paddingLeft="@dimen/x10"
+            android:paddingRight="@dimen/x10">
+
+            <ImageView
+                android:id="@+id/TimeClose_IMG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/yolo_back_left"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/title_TX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="设备列表"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/SetUp_TMG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:padding="@dimen/x5"
+                android:src="@mipmap/icon_setup"
+                android:text="保存"
+                android:textSize="35px" />
+        </FrameLayout>
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/Set_LinearLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="right">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/SetUp_TMG"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="@dimen/x8"-->
+        <!--android:src="@mipmap/yl_equipment_selected" />-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/shape_corner">-->
+        <!--<TextView-->
+        <!--android:id="@+id/LouCeng_TX"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="一楼"-->
+        <!--android:textSize="15sp" />-->
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/myRecyclerView1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/shape_corner">-->
+        <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="二楼"-->
+        <!--android:textSize="15sp" />-->
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/myRecyclerView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/shape_corner">-->
+        <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="三楼"-->
+        <!--android:textSize="15sp" />-->
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/myRecyclerView3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/shape_corner">-->
+        <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="四楼"-->
+        <!--android:textSize="15sp" />-->
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/myRecyclerView4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/shape_corner">-->
+        <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="门卫"-->
+        <!--android:textSize="15sp" />-->
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/myRecyclerView5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <!--</LinearLayout>-->
+        <android.support.v7.widget.RecyclerView
+        android:id="@+id/Facility_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingRight="@dimen/x30"
+        android:paddingTop="@dimen/y30">
+
+        <LinearLayout
+            android:id="@+id/Menu_Linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@drawable/img_bg_shape_red2"
+            android:paddingBottom="@dimen/x7"
+            android:paddingTop="@dimen/x7"
+            android:paddingLeft="@dimen/x10"
+            android:paddingRight="@dimen/x10">
+
+            <LinearLayout
+                android:id="@+id/Tianjia_Linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/yl_tianjiashebei" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="添加设备"
+                    style="@style/Tanchuang_text"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+            <LinearLayout
+                android:id="@+id/SetPassword_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/yl_password" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改密码"
+                    style="@style/Tanchuang_text"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dddcdc" />
+            <LinearLayout
+                android:id="@+id/CloseLogin_Linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5">
+
+                <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/yl_close" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退出登录"
+                    style="@style/Tanchuang_text"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <!--<ImageView-->
+            <!--android:id="@+id/up_arrow"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/icon_redjiantou"-->
+            <!--/>-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:paddingBottom="@dimen/x40"
+        android:paddingRight="@dimen/x20">
+
+        <ImageView
+            android:id="@+id/consult_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_consult" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/Donghua_FrameLauout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#111"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/x40">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/x15"
+                android:src="@drawable/tupiandiejia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/x30">
+
+            <ImageView
+                android:id="@+id/xiaofangzi_IMG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/x95"
+                android:src="@drawable/xiaofangzi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/x50">
+
+            <ImageView
+                android:id="@+id/xiaofangzi"
+                android:layout_width="@dimen/x20"
+                android:layout_height="@dimen/x20"
+                android:src="@drawable/yuandian" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

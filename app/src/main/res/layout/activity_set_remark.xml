@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_remark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pumin.com.pumin.activity.SetRemarkActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/red">
+
+        <ImageView
+            android:id="@+id/close_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:src="@mipmap/yolo_back_left"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加配置"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:id="@+id/Homepage_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/yl_homepage"
+            android:layout_gravity="right|center"
+            android:padding="@dimen/x5" />
+    </FrameLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/alert_top_shape"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingBottom="15dp" >-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="设置设备信息"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:textColor="@color/black" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/line_gray"-->
+        <!--android:orientation="vertical" >-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/x20"
+        android:paddingRight="@dimen/x20">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="楼层选择"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:paddingTop="@dimen/x40"
+            android:paddingBottom="@dimen/x10"
+            />
+
+        <Button
+            android:id="@+id/etAlias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_corner_red"
+            android:ems="10"
+            android:hint="选择"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/line_gray"-->
+        <!--android:orientation="vertical" >-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/x20"
+        android:paddingRight="@dimen/x20">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="类型选择"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:paddingTop="@dimen/x40"
+            android:paddingBottom="@dimen/x10"
+            />
+        <Button
+            android:id="@+id/etRemark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_corner_red"
+            android:ems="10"
+            android:hint="选择"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/line_gray"-->
+        <!--android:orientation="vertical" >-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/llNo"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/alert_bottom_left_shape"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/cancel"-->
+                <!--android:textColor="@color/alert_blue" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/line_gray"-->
+            <!--android:orientation="vertical" >-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/alert_bottom_right_shape"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/llSure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/besure"
+                android:textColor="@color/white"
+                style="@style/ButtonYT"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:paddingRight="@dimen/x20"
+        android:paddingBottom="@dimen/x40"
+        >
+        <ImageView
+            android:id="@+id/consult_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_consult"
+            />
+    </LinearLayout>
+</FrameLayout>

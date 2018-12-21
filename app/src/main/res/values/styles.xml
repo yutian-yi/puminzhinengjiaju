@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--Theme.AppCompat.Light.DarkActionBar   Theme.AppCompat.NoActionBar-->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="EditTextStyle1">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@color/alert_blue2</item>
+    </style>
+
+    <style name="ButtonStyle1">
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/img_bg_shape1</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_marginLeft">@dimen/x20</item>
+        <item name="android:layout_marginRight">@dimen/x20</item>
+        <item name="android:layout_marginTop">@dimen/x20</item>
+        <item name="android:background">@drawable/img_bg_shape1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="Widget_GifView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/gifview_background</item>
+    </style>
+    <style name="Activity_Title">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#3c4450</item>
+        <item name="android:paddingLeft">@dimen/x21</item>
+    </style>
+    <style name="ButtonYT">
+        <item name="android:layout_marginLeft">@dimen/x20</item>
+        <item name="android:layout_marginRight">@dimen/x20</item>
+        <item name="android:layout_marginTop">@dimen/x20</item>
+        <item name="android:background">@drawable/icon_yinying</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="work_item_Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="work_item_Text1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color4</item>
+    </style>
+    <style name="remarke">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/img_bg_shape_white</item>
+        <item name="android:button">@null</item>
+        <!--<item name="android:centerDark">@color/red</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>-->
+    </style>
+    <style name="Tanchuang_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Tanchuang_text1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

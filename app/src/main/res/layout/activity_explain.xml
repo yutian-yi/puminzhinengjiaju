@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_explain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pumin.com.pumin.activity.ExplainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/Image_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            />
+    </ScrollView>
+    <ImageView
+        android:id="@+id/close_IMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_close"
+        android:layout_gravity="right"
+        android:paddingRight="@dimen/x20"
+        android:paddingTop="@dimen/x20"/>
+</FrameLayout>
